@@ -58,7 +58,7 @@ Then to install the templates:
 dotnet new install KnowYourToolset.Templates
 ```
 
-**N O T E:** If you're using [VS Code](https://code.visualstudio.com/), you'll want the **C# Dev KIt** installed.
+**N O T E:** If you're using [VS Code](https://code.visualstudio.com/), you'll want the **C# Dev Kit** installed.
 
 ### Uninstalling
 
@@ -76,8 +76,8 @@ There are two templates available in this repo:
 * `kyt-aspire`: KnowYourToolset Aspire (solution)
 
 If you create a project / solution from within Visual Studio or Rider, any options will be
-available from the "wizard" during the project creation process (in Rider they're in the
-the **Advanced Options** area).
+available from the "wizard" during the project creation process
+(in Rider they're in the **Advanced Options** area).
 
 From the `dotnet` CLI, you can create a project using:
 
@@ -102,7 +102,7 @@ When you create a project there are a few steps you need to follow.  They are do
 
 `//TODO: take this action`
 
-So if you open a "Task View" in Visual Studio you should be able to see the short list of things you probably need to follow-up on to really get your project set up correctly.
+So if you open a "Task View" in Visual Studio you should be able to see the short list of things you probably need to follow-up to really get your project set up correctly.
 
 ## Contributing
 
@@ -163,7 +163,7 @@ dotnet new install ./KnowYourToolset.Templates.<version>.nupkg
 
 > **N O T E:** When packaging the templates, ALL files in the directory where the current template
 > exists will be included. It's best to NOT include `bin`, `obj`, and `node_modules` folders, so
-> the following handy PowerShell funciton will remove all of those folders from any subdirectories if you
+> the following handy PowerShell function will remove all of those folders from any subdirectories if you
 > run it from the root folder of the templates:
 >
 > ```posh

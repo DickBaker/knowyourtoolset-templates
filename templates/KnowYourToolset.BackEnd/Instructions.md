@@ -21,7 +21,7 @@ This solution was generated from an ASP.NET Core WebAPI template that comes with
 
 ## Authentication
 
-No anonumous access is allowed on any API methods. An OAuth2 bearer token is
+No anonymous access is allowed on any API methods. An OAuth2 bearer token is
 required to authenticate, and is provided by the [Demo Duende IdentityServer](https://demo.duendesoftware.com).
 The primary configuration is in the `Authentication` section of `appsettings.json`.
 
@@ -29,7 +29,7 @@ The logged-in user is included in log entries via the
 `UserScopeMiddleware` - see [Open Telemetry](#open-telemetry).
 
 Changing to use another provider like [Auth0](https://auth0.com) or anything else should be mostly just changing
-those cofig values.
+those config values.
 
 Note that the ONLY reason there is a `swaggerClientId` is for the Swagger UI, which will only
 be present in `Development` as coded (see the [OpenAPI](#openapi) section below for more details)
